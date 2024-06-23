@@ -74,7 +74,9 @@ export default async function ExLib({ searchParams }: SearchParamsProps) {
         ) : (
           <div className="flex flex-col items-center justify-center">
             <ReloadIcon className=" my-2 size-10 animate-spin text-orange-500" />
-            <p className="text-dark-200">Fetching exercises...</p>
+            <p className="text-dark-200">
+              Used all free API calls for this month... /cry
+            </p>
           </div>
         )}
       </div>
